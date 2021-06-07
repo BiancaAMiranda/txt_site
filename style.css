@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color:rgb(160, 192, 250);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 20vh;
+    padding: 15px;
+}
+.menu{
+    display: flex;
+}
+.menu a{
+    color: black;
+    margin: 5px;
+    text-decoration: none;
+}
+.menu a:hover{
+    color: rgb(58, 56, 56);
+}
+.video{
+    display: flex;
+    justify-content: center;
+    margin-top: 15vh;
+}
+.membro{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 3px 3px 10px rgb(128, 167, 240);
+    padding: 10px;
+    margin: 10px;
+}
+.imagem img{
+    width: 150px;
+}
+.all figure img{
+    height: 300px;
+}
+.all figure{
+    margin: 10px;
+}
+.all figure figcaption{
+    text-align: center;
+}
+.one{
+    display: flex;
+    justify-content: center;
+}
+.general{
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 3px 3px 10px rgb(128, 167, 240);
+}
+.general h2{
+    text-align: center;
+}
+.general p{
+    text-align: justify;
+}
+.general a{
+    color: rgb(128, 167, 240);
+}
+.songs{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 3px 3px 10px rgb(128, 167, 240);
+}
+.song a{
+    color: black;
+    text-decoration: none;
+}
+.song a:hover{
+    color: rgb(128, 167, 240);
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    text-align: center;
+    margin-top: 60px;
+}
+footer a{
+    text-decoration: none;
+    color: rgb(67, 125, 233);
+}
+footer a:hover{
+    color: rgb(58, 56, 56);
+}
